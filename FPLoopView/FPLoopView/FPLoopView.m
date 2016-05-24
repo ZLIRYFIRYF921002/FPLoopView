@@ -14,15 +14,17 @@
     NSIndexPath *_indexPath;
     NSInteger count;
 }
+@property (nonatomic,strong)NSArray *images;
+@property (nonatomic,copy)FPLoopBlcok operation;
+
 @end
+
 @implementation FPLoopView
-- (instancetype)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        
-    }
-    return self;
++(instancetype)fpLoopView:(CGRect)frame withImages:(NSArray*)images withOperation:(FPLoopBlcok)operation{
+    FPLoopView *view = [[FPLoopView alloc]initWithFrame:frame];
+                view.images = images;
+                view.operation = operation;
+    return view;
 }
 -(void)creatSubView{
     UICollectionViewFlowLayout *flow = [[UICollectionViewFlowLayout alloc]init];
@@ -108,4 +110,12 @@
     }
     return _pageVC;
 }
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    _operation(_images[indexPath.item]);
+
+}
+
+
+
 @end

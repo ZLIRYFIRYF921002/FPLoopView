@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21787D43A81E3B0FC0BC309EB407B033C95AE408",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0E8B15238F41D76F9F688F3886E4457657AEAFBB" : 0,
+    "21787D43A81E3B0FC0BC309EB407B033C95AE408" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A9F22BA3-3EE1-484D-81C4-8BC960432CA3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0E8B15238F41D76F9F688F3886E4457657AEAFBB" : "",
+    "21787D43A81E3B0FC0BC309EB407B033C95AE408" : "FPLoopView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FPLoopView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FPLoopView\/FPLoopView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZLIRYFIRYF921002\/FPLoopView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E8B15238F41D76F9F688F3886E4457657AEAFBB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ZLIRYFIRYF921002\/FPLoopView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21787D43A81E3B0FC0BC309EB407B033C95AE408"
+    }
+  ]
+}

@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^FPLoopBlcok)(id object);
 @interface FPLoopView : UIView<UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (strong, nonatomic)  UIPageControl *pageVC;
-@property (nonatomic,strong)NSArray *images;
++(instancetype)fpLoopView:(CGRect)frame withImages:(NSArray*)images withOperation:(FPLoopBlcok)operation;
 @end

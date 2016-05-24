@@ -19,10 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    view = [[FPLoopView alloc]initWithFrame:CGRectMake(50, 200, self.view.bounds.size.width-100, 300)];
-     NSArray *arr= @[@"scene1.jpg",@"scene2.jpg",@"scene3.jpg",@"scene4.jpg",@"scene5.jpg"];
-    view.images = arr;
-    [self.view addSubview:view];
+    
+    
+    
+    
+    NSArray *arr= @[@"scene1.jpg",@"scene2.jpg",@"scene3.jpg",@"scene4.jpg",@"scene5.jpg"];
+    CGRect frame = CGRectMake(50, 100, 300, 200);
+    FPLoopView *loopView = [FPLoopView fpLoopView:frame withImages:arr withOperation:^(id object) {
+        NSLog(@"%@",object);
+    }];
+    [self.view addSubview:loopView];
     
     
     
