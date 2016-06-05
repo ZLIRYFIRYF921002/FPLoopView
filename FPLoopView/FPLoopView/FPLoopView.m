@@ -67,6 +67,9 @@
 -(void)scrollToNext{
     [_collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:_indexPath.item+1 inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:YES];
     [self performSelector:@selector(scrollToNext) withObject:nil afterDelay:FPDelayTime];
+    
+    
+    
 
 }
 -(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
