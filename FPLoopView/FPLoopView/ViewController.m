@@ -23,6 +23,9 @@
     //test1
     
     
+    //test2
+    
+    
     NSArray *arr= @[@"scene1.jpg",@"scene2.jpg",@"scene3.jpg",@"scene4.jpg",@"scene5.jpg"];
     CGRect frame = CGRectMake(50, 100, 300, 200);
     FPLoopView *loopView = [FPLoopView fpLoopView:frame withImages:arr withOperation:^(id object) {
